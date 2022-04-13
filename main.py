@@ -15,16 +15,13 @@ def main():
     txtFile = sys.argv[1]
 
     listData = readData(txtFile)
-   # print(listData)
 
     dataDict = dataToDict(listData)
 
     grid = scheduleMatrix(dataDict)
     coin = coincidences(grid)
 
-    print(coin.obtainRelations())
-    #print(coin.getRelations())
-
+    print(coin.getRelations())
 
 
 if '__main__' == __name__:

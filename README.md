@@ -15,10 +15,11 @@ The goal of this exercise is to determine whether a pair of employees coincide a
 
 - After cloning project, cd into directory
 - Open a terminal session
-Then:
+- Then:
 ``` python
 python main.py [file path] 
 ```
+---
 
 
 

@@ -1,4 +1,5 @@
 #! /usr/bin/env python
+
 import sys
 from processingData import *
 from scheduleMatrix import *
@@ -27,6 +28,7 @@ def main():
     # Creates an Object coincidence that stores a dictionary with results
     coincidences = coincidence(grid)
 
+    # Print results
     coincidences.getCoincidences()
 
 

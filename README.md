@@ -46,6 +46,7 @@ Next, I describe each of the files in a constructive order with the purpose of b
 
     - An illustration of the implemented algorithm with its respective asymptotic analysis. Annotations made with [Excalidraw](excalidraw.com):    
       
-         ![analysis](https://user-images.githubusercontent.com/29549000/163332653-c9b5e769-7212-457a-aa49-936c3a37a742.png)
+         ![analysis](https://user-images.githubusercontent.com/29549000/163413540-727aae74-2614-4145-9bf0-e3eff14ff5c4.png)
+
 
 

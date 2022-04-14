@@ -44,7 +44,8 @@ Next, I describe each of the files in a constructive order with the purpose of b
 
 3. coincidence.py: The second class is instantiated with a scheduleMatrix object. This class contains the algorithm that processes the matrix in order to obtain the coincidences. It is done by iterating through the list of weekdays, obtaining a vector that contains the entrance and departure time of every employee for that given day. When is time to do the comparison, I pop the employee from the left side of the list in order to prevent innecessary comparisons, and this is done while the vector with the tuples has items, then the whole process repeats for every day. 
 
-    - An illustration of the implemented algorithm with its respective asymptotic analysis. Annotations made with [Excalidraw](excalidraw.com):
-    
+    - An illustration of the implemented algorithm with its respective asymptotic analysis. Annotations made with [Excalidraw](excalidraw.com):    
+      
+         ![analysis](https://user-images.githubusercontent.com/29549000/163332653-c9b5e769-7212-457a-aa49-936c3a37a742.png)
 
 

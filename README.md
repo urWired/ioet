@@ -39,4 +39,7 @@ Next, I describe each of the files in a constructive order with the purpose of b
         3. Although it is necessary to have a contiguous amount of space in memory when storing arrays or matrixes, I assumed that the amount of data is not a concern at the moment.
 
     - An illustration of the implemented data structure for clarification:
+    
+    ![matrix](https://user-images.githubusercontent.com/29549000/163325909-12b68cd5-837f-4f3e-9fc7-1da05e415e47.png)
+
 

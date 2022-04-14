@@ -1,6 +1,6 @@
 from scheduleMatrix import *
 
-class coincidences:
+class coincidence:
 
     def __init__(self, grid: scheduleMatrix):
 
@@ -42,4 +42,8 @@ class coincidences:
 
 # Returns the data allocated in the attribute __coincidences
     def getCoincidences(self):
-        return self.__coincidences
+        data = self.__coincidences
+        print('  Names         Recurrences')
+        print('|--------------------------|')
+        for k,v in data.items():
+            print(f' {k}:    {v} \n')

@@ -14,14 +14,20 @@ def main():
     # Obtain file
     txtFile = sys.argv[1]
 
+    # Generate list of strings
     listData = readData(txtFile)
 
+    # Generate dictionary with data
     dataDict = dataToDict(listData)
 
+    # Generate matrix data structure
     grid = scheduleMatrix(dataDict)
-    coin = coincidences(grid)
 
-    print(coin.getCoincidences())
+    # Create coincidences based on grid structure
+    # Creates an Object coincidence that stores a dictionary with results
+    coincidences = coincidence(grid)
+
+    coincidences.getCoincidences()
 
 
 if '__main__' == __name__:

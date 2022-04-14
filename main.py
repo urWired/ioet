@@ -3,7 +3,7 @@
 import sys
 from processingData import *
 from scheduleMatrix import *
-from coincidences import *
+from coincidence import *
 
 def main():
 

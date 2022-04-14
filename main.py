@@ -21,7 +21,7 @@ def main():
     grid = scheduleMatrix(dataDict)
     coin = coincidences(grid)
 
-    print(coin.getRelations())
+    print(coin.getCoincidences())
 
 
 if '__main__' == __name__:

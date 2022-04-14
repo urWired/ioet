@@ -38,8 +38,8 @@ Next, I describe each of the files in a constructive order with the purpose of b
         2. Take advantage of asymptotic time when trying to access the data with indexes.
         3. Although it is necessary to have a contiguous amount of space in memory when storing arrays or matrixes, I assumed that the amount of data is not a concern at the moment.
 
-    - An illustration of the implemented data structure for clarification:
+    - An illustration of the implemented data structure draw with [Excalidraw] (excalidraw.com):
     
-    ![matrix](https://user-images.githubusercontent.com/29549000/163325909-12b68cd5-837f-4f3e-9fc7-1da05e415e47.png)
+        ![matrix](https://user-images.githubusercontent.com/29549000/163325909-12b68cd5-837f-4f3e-9fc7-1da05e415e47.png)
 
 

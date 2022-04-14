@@ -33,10 +33,10 @@ Next, I describe each of the files in a constructive order with the purpose of b
    - list with the names of the employees, which is obtained from the dictionary.
    - an attribute that invokes a private method.
 
-I chose this representation because of different factors:
-1. I wanted to have a visual representation of the data in a tabular way, which is a good approach when working with tabular data.
-2. Take advantage of asymptotic time when trying to access the data with indexes.
-3. Although it is necessary to have a contiguous amount of space in memory when storing arrays or matrixes, I assumed that the amount of data is not a concern at the moment.
+    I chose this representation because of different factors:
+        1. I wanted to have a visual representation of the data in a tabular way, which is a good approach when working with tabular data.
+        2. Take advantage of asymptotic time when trying to access the data with indexes.
+        3. Although it is necessary to have a contiguous amount of space in memory when storing arrays or matrixes, I assumed that the amount of data is not a concern at the moment.
 
-- An illustration of the implemented data structure for clarification:
+    - An illustration of the implemented data structure for clarification:
 

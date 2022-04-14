@@ -31,7 +31,7 @@ Next, I describe each of the files in a constructive order with the purpose of b
 2. scheduleMatrix.py: This class receives the dictionary obtained in the previous step as an argument to instatiate it. Also, it initializes the next attributes:
    - list of days, where each value is conformed by the first two capitalized letters of a day.
    - list with the names of the employees, which is obtained from the dictionary.
-   - an attribute that invokes a private method.
+   - a __grid attributes containing a filled matrix with tuples. (0,0) tuple means that the employee didn't work that day. 
 
     I chose this representation because of different factors:
         1. I wanted to have a visual representation of the data in a tabular way, which is a good approach when working with tabular data.
@@ -41,5 +41,10 @@ Next, I describe each of the files in a constructive order with the purpose of b
     - An illustration of the implemented data structure that I drew with [Excalidraw](excalidraw.com):
     
         ![matrix](https://user-images.githubusercontent.com/29549000/163325909-12b68cd5-837f-4f3e-9fc7-1da05e415e47.png)
+
+3. coincidence.py: The second class is instantiated with a scheduleMatrix object. This class contains the algorithm that processes the matrix in order to obtain the coincidences. It is done by iterating through the list of weekdays, obtaining a vector that contains the entrance and departure time of every employee for that given day. When is time to do the comparison, I pop the employee from the left side of the list in order to prevent innecessary comparisons, and this is done while the vector with the tuples has items, then the whole process repeats for every day. 
+
+    - An illustration of the implemented algorithm with its respective asymptotic analysis. Annotations made with [Excalidraw](excalidraw.com):
+    
 
 
